@@ -14,7 +14,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(0, 0), 0)
         
         # このテストケースは失敗するはずです
-        self.assertEqual(multiply(2, 2), 5)
+        #self.assertEqual(multiply(2, 2), 5)
 
 if __name__ == '__main__':
     unittest.main()
